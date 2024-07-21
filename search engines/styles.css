@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgb(86, 86, 86), rgb(125, 116, 131));
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center; 
+    width: 100%;
+    background-image: url(/imges/gifs/nebula.webp);
+    background-size: cover;
+}
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    padding: 12px;
+    background: linear-gradient(to right, rgb(26, 0, 33), black);
+    border-bottom: 1px solid #ddd;
+    color: rgba(179, 235, 255, 0.777);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    padding:20px;
+    background: linear-gradient(to right, rgb(26, 0, 33), black);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+
+}
+.header_text {
+    display: inline-block;
+    margin: auto 10%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.header-nav {
+    margin-top: 10px;
+}
+
+.icon{
+    color: #DDDDDD;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    gap: 40px; 
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #141414;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    text-decoration: none;
+    max-width: 30%;
+    text-align: center;
+    height: 300px;
+    border: double rgb(102, 0, 255);
+    box-shadow: 1px 1px 20px rgba(198, 198, 198, 0.204);
+}
+
+.logo-card .logo-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.logo-card img {
+    width: 70%; 
+    height: auto;
+    max-height: 200px; 
+}
+
+.logo-card:hover {
+    transform: translateY(-5px);
+}
+
+.logo_text {
+    color: white;
+    margin-top: 10px;
+}
+
+.logo_text:hover {
+    color: rgb(212, 255, 93);
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .logo-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .logo-card {
+        height: 200px;
+        padding: 20px;
+        max-width: 60%;
+    }
+    .logo-card img {
+        width: 80%; 
+        height: auto;
+        max-height: 200px; 
+    }
+}
+

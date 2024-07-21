@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verilen İlanlar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Verilen İlanlar</h1>
+        <div class="button-container">
+            <button onclick="sortAds('newest')" class="btn">En Yeniden Eskiye</button>
+            <button onclick="sortAds('oldest')" class="btn">En Eskiden Yeniye</button>
+            <button onclick="resetLocalStorage()" class="btn">İlanları Resetle</button>
+        </div>
+        <div id="ads" class="ads-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

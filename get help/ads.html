@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submitted Ads</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Submitted Ads</h1>
+                <a href="index.html">Submit a New Ad</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="ads-container">
+            <h2>Ads</h2>
+            <div>
+                <label for="sort-order">Sort by:</label>
+                <select id="sort-order">
+                    <option value="newest">Newest First</option>
+                    <option value="oldest">Oldest First</option>
+                </select>
+            </div>
+            <div id="ads"></div>
+        </div>
+    </div>
+    <script src="ads.js"></script>
+</body>
+</html>
