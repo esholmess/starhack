@@ -67,7 +67,7 @@ nav a:hover {
 }
 
 .banner {
-    background-image: url("/imges/nebula.png");
+    background-image: url("./imges/nebula.png");
     background-size: cover;
     padding: 50px 0;
     text-align: center;;
@@ -284,7 +284,7 @@ header.dark-theme .header-links a, header.dark-theme .account-cart a, nav.dark-t
 }
 
 .dark-theme .banner {
-    background-image: url("/imges/gifs/nebula.webp");
+    background-image: url(".//imges/gifs/nebula.webp");
     color: #f0ebf9;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
     text-align: center;
@@ -329,7 +329,7 @@ nav.red-pink-theme{
 .red-pink-theme .banner{
     background:linear-gradient(to right, rgb(90, 1, 1),rgb(214, 0, 75),rgb(162, 0, 27));
     color: #ffffff;
-    background-image: url(/imges/nebula2.png);
+    background-image: url(./imges/nebula2.png);
     background-size: cover;
     text-shadow: 20px 20px 20px black;
 
